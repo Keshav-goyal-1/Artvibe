@@ -1,0 +1,50 @@
+<xaiArtifact artifact_id="65c33ff5-6994-4da1-a3d7-806f067f8174" artifact_version_id="285b7e38-f32d-47c9-a67e-664da24aca67" title="index.html" contentType="text/html">
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Artist Portfolio</title>
+      <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 font-sans">
+      <!-- Navbar -->
+      <nav class="bg-white shadow-md">
+          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+              <div class="flex justify-between items-center">
+                  <h1 class="text-2xl font-bold text-gray-900">Artist Portfolio</h1>
+                  <div>
+                      <a href="admin.php" class="text-gray-600 hover:text-gray-900 px-3 py-2">Admin</a>
+                  </div>
+              </div>
+          </div>
+      </nav>
+  
+      <!-- Hero Section -->
+      <section class="bg-gradient-to-r from-purple-500 to-pink-500 text-white py-20">
+          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+              <h2 class="text-4xl font-bold mb-4">Welcome to My Art World</h2>
+              <p class="text-lg">Explore my creative journey through art and imagination.</p>
+          </div>
+      </section>
+  
+      <!-- Portfolio Gallery -->
+      <section class="py-16">
+          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <h3 class="text-3xl font-bold text-gray-900 mb-8 text-center">My Works</h3>
+              <div id="portfolio-gallery" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                  <!-- Artworks will be loaded here via JavaScript -->
+              </div>
+          </div>
+      </section>
+  
+      <!-- Footer -->
+      <footer class="bg-gray-900 text-white py-8">
+          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+              <p>&copy; 2025 Artist Portfolio. All rights reserved.</p>
+          </div>
+      </footer>
+  
+      <script src="js/script.js"></script>
+  </body>
+  </html>
